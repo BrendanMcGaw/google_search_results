@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  color: #5F6368;
+}
+
+a {
+  text-decoration: none;
+  color: #1A49C5;
+}
+
+a:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+/* Search Bar Header Container */
+/* -------------------------------------- */
+.header-search-container {
+  height: 122px;
+  width: 100%;
+}
+.logo {
+  position: relative;
+  top: 28px;
+  left: 20px;
+  float: left;
+}
+.searchBar {
+  position: absolute;
+  left: 150px;
+  top: 20px;
+  font-size: 22px;
+  width: 600px;
+  height: 40px;
+  border: 1px solid #DFE1E5;
+  border-radius: 50px;
+  background-image: url("images/magnifGlass.png"), url("images/google-microphone.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 97% center, 90% center;
+  background-size: 16px 16px, 14px 20px;
+  padding-left: 20px;
+  outline: none;
+}
+
+/* Search bar types, videos, images, shopping etc... */
+/* -------------------------------------- */
+.search-types-bar-container {
+  position: absolute;
+  left: 145px;
+  top: 90px;
+  height: 29px;
+  width: 100%;
+}
+.search-type {
+  padding: 0 6px 12px;
+  text-decoration: none;
+  color: inherit;
+}
+.search-type:focus { /* If tab has been clicked will light up a blue border along the bottom of the margin. */
+  color: blue;
+  border-spacing: 5px;
+  border-bottom: solid 3px blue;
+}
+.awesome-icons {
+  padding: 0 5px;
+  text-decoration: none;
+  color: inherit;
+}
+.right-side-types {
+  position: relative;
+  left: 22px;
+}
+.search-type-border { /* Creates a border line similiar to a horizontal line break between the search results and the header. */
+  height: 1px;
+  border-bottom: solid 1px #EBEBEB;
+  border-width: 100%;
+}
+/* Search Results */
+/* -------------------------------------- */
+.column {
+  margin-top: 15px;
+  margin-left: 155px;
+  float: left;
+  width: 700px;
+}
+.column-left {
+  background-color: green;
+}
+.column-right {
+  background-color: orange;
+}
+.amount-of-results {
+  position: relative;
+}
+.advertisements-container {
+  height: inherit;
+  width: inherit;
+}
+.adverts {
+  margin-top: 35px;
+}
+.ad-letters {
+  font-weight: bolder;
+}
+.website-headers {
+  margin: 8px 0;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.website-description {
+  margin: 5px 0;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 22px;
+}
+.website-anchors {
+  margin: 5px 0;
+}
+
+/* YouTube Videos Section */
+/* ---------------------- */
+.videos-container {
+  float: left;
+}
+.video-box-size {
+  position: relative;
+  right: 15px;
+  margin: 0px 5px;
+  float: left;
+  border-radius: 10px;
+  height: 280px;
+  width: 215px;
+  border: 1px solid #EBEBEB;
+}
+
+.youtube-video-link {
+  position: relative;
+  left: 15px;
+  top: 15px;
+  letter-spacing: .2px;
+  line-height: 1.35;
+  font-weight: normal;
+  font-size: 16px;
+}
+.youtuber-1-username {
+  position: relative;
+  top: 75px;
+  right: 87px;
+  color: #B0B0B0;
+}
+.youtuber-2-username {
+  position: relative;
+  top: 75px;
+  right: 21px;
+  color: #B0B0B0;
+}
+.youtuber-3-username {
+  position: relative;
+  top: 57px;
+  left: 17px;
+  color: #B0B0B0;
+}
+.date-of-upload {
+  position: relative;
+  top: 75px;
+  left: 15px;
+}
+.date-of-upload-video-3 {
+  position: relative;
+  top: 59px;
+  left: 16px;
+}

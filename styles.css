@@ -45,7 +45,6 @@ a:hover {
 }
 
 /* Search bar types, videos, images, shopping etc... */
-/* -------------------------------------- */
 .search-types-bar-container {
   position: absolute;
   left: 145px;
@@ -53,6 +52,7 @@ a:hover {
   height: 29px;
   width: 100%;
 }
+/*  */
 .search-type {
   padding: 0 6px 12px;
   text-decoration: none;
@@ -77,34 +77,42 @@ a:hover {
   border-bottom: solid 1px #EBEBEB;
   border-width: 100%;
 }
-/* Search Results */
-/* -------------------------------------- */
+/*-------------------- Website Layout Section -------------------*/
+/* --------------------------------------------------------------*/
 .column {
   margin-top: 15px;
   margin-left: 155px;
   float: left;
   width: 700px;
 }
-.column-left {
-  background-color: green;
-}
-.column-right {
-  background-color: orange;
-}
+/* -----------------------Search Results -------------------------*/
+/* -------------------------------------------------------------- */
+/* Shows the amount of results pulled from the search. */
 .amount-of-results {
   position: relative;
 }
+
+/*----------- Website Advertisement Containers Section -------------*/
+/*------------------------------------------------------------------*/
+/* The adverts is the container that holds the individual websites. */
 .adverts {
   margin-top: 35px;
 }
+/* The icons in the top left of the website advert*/
 .ad-letters {
   font-weight: bolder;
 }
+/* The section container that holds all the websites listed after the initial advertised websites on google. */
+.websites {
+  margin-top: 35px;
+}
+/* The website header is the title and also the hyperlink to take you to the webpage / website. */
 .website-headers {
   margin: 8px 0;
   font-size: 20px;
   font-weight: lighter;
 }
+/* Brief description of what the website or webpage is about. */
 .website-description {
   margin: 5px 0;
   font-weight: 500;
@@ -112,60 +120,82 @@ a:hover {
   letter-spacing: 0.3px;
   line-height: 22px;
 }
+/* The hyperlinks directly promoted by the website for easier access */
 .website-anchors {
   margin: 5px 0;
 }
 
-/* YouTube Videos Section */
-/* ---------------------- */
+/* ----------------YouTube Videos Section----------------- */
+/* ------------------------------------------------------- */
+/* The container that holds all of the video containers. */
 .videos-container {
-  float: left;
+  display: flex;
+  justify-content: space-around;
+  width: 650px;
 }
-.video-box-size {
-  position: relative;
-  right: 15px;
-  margin: 0px 5px;
-  float: left;
+/* The containers for each individual video. */
+.video-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px #B0B0B0 solid;
   border-radius: 10px;
-  height: 280px;
-  width: 215px;
-  border: 1px solid #EBEBEB;
+  flex-basis: 150px;
+}
+/* The thumbnail image for each video contained in the boxes. */
+.video-images {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: red;
+}
+/* The link and title that takes you to the YouTube video. */
+.youtube-video-link {
+  margin: 15px 15px 55px 15px;
+  font-size: 18px;
+  height: 100%;
+  font-weight: lighter;
+}
+/* The username of the person who uploaded the YouTube video. */
+.youtuber-username {
+  margin-left: 15px;
+  color: #B0B0B0;
+}
+/* The date the video in the box was uploaded to YouTube. */
+.date-of-upload {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
 }
 
-.youtube-video-link {
-  position: relative;
-  left: 15px;
-  top: 15px;
-  letter-spacing: .2px;
-  line-height: 1.35;
-  font-weight: normal;
+/* ---------------People Also Ask Question Boxes Below -------------*/
+/* ---------------------------------------------------------------- */
+/* The container that holds all of the "People also ask" boxes. */
+.people-also-ask-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 650px;
+  border: 1px #B0B0B0 solid;
+  border-radius: 8px;
+}
+/* The containers holding the question for the "People also ask" boxes. */
+.people-question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px #B0B0B0 solid;
+  padding-left: 15px;
+  font-weight: lighter;
   font-size: 16px;
 }
-.youtuber-1-username {
-  position: relative;
-  top: 75px;
-  right: 87px;
-  color: #B0B0B0;
+/* The header for the box of "People also ask" */
+.question-header {
+  border-top: none;
+  font-weight: lighter;
+  font-size: 20px;
 }
-.youtuber-2-username {
-  position: relative;
-  top: 75px;
-  right: 21px;
-  color: #B0B0B0;
-}
-.youtuber-3-username {
-  position: relative;
-  top: 57px;
-  left: 17px;
-  color: #B0B0B0;
-}
-.date-of-upload {
-  position: relative;
-  top: 75px;
-  left: 15px;
-}
-.date-of-upload-video-3 {
-  position: relative;
-  top: 59px;
-  left: 16px;
+/* The downward pointed arrow at the right side of the "People also ask" boxes. */
+.question-chevron-down {
+  padding-top: 15px;
+  padding-right: 15px;
 }

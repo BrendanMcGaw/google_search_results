@@ -4,3 +4,4 @@ Recreation of a google search of "Learn web dev" using simple HTML, CSS. During 
 and the usefulness of its ability to evenly space and easily organise boxes and gridlike systems. 
 
 Creating this page has helped to instill understanding of CSS principles such as margins, paddings and positioning.
+https://brendanmcgaw.github.io/google_search_results//

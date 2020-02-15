@@ -5,3 +5,6 @@ and the usefulness of its ability to evenly space and easily organise boxes and 
 
 Creating this page has helped to instill understanding of CSS principles such as margins, paddings and positioning.
 https://brendanmcgaw.github.io/google_search_results//
+
+# TODO: 
+Add functionality to page.
